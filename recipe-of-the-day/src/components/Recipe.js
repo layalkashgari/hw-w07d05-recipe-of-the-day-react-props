@@ -5,9 +5,9 @@ const Recipe = (props) => {
     console.log(postRecipes);
     return (
         <div className="Recipe">
-            <h3>Name: {postRecipes.name}</h3>
-            <h3>Servings: {postRecipes.servings}</h3>
-            <h3>Category: {postRecipes.category}</h3>
+            <p>Name: {postRecipes.name}</p>
+            <p>Servings: {postRecipes.servings}</p>
+            <p>Category: {postRecipes.category}</p>
         </div>
     )
 }

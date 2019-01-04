@@ -18,9 +18,9 @@ class RecipeOfTheDay extends Component {
       return (
         <div className="header">
             <h1 className="title">Recipe of the Day</h1>
-            <h2>{recipeOfTheDay.name}</h2>
+            <p>{recipeOfTheDay.name}</p>
             <h2>Description:</h2>
-            <h2>{recipeOfTheDay.description}</h2>
+            <p>{recipeOfTheDay.description}</p>
             <h2>Ingredient</h2>
             {this.renderIngredients()}
         </div>
